@@ -19,15 +19,15 @@
 	</head>
 	<body class="is-preload">
     <!-- TODO 1: INSERT YOUR WIDGET CODE HERE -->
-        <!-- Start of Smeetz Embed Code -->
-    <script type="text/javascript" async defer>
+    <!-- Start of Smeetz Embed Code -->
+    <!-- <script type="text/javascript" async>
 
       var el = document.createElement('script');
       el.setAttribute('id', 'smeetz-iframe-vars');
       el.setAttribute('src', '//test.iframe.smeetz.com/11006/20.js');
       document.body.appendChild(el);
 
-    </script>
+    </script> -->
     <!-- End of Smeetz Embed Code -->
 
 		<!-- Wrapper -->
@@ -55,14 +55,19 @@
 										<header>
 											<h1>Hi, I’m Riyadh<br />
 											from Smeetz</h1>
-											<p>{Job title}</p>
+											<p>Frontend guy</p>
 										</header>
 										<p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas. Pellentesque sapien ac quam. Lorem ipsum dolor sit nullam.</p>
 										<ul class="actions">
 											<li>
                         <!-- TODO 2 -->
-                        <a href="#" class="button big">
-                          {Widget 1}
+                        <!-- <a href="#" class="button big"> -->
+                        <a class="button big" target="_blank" rel="noopener noreferrer"
+                          onclick="
+                          event.preventDefault();
+                          openCustomIframe('36009', {listView: false});"
+                        >
+                          Hire me
                         </a>
                       </li>
 										</ul>
@@ -122,7 +127,11 @@
 											<ul class="actions">
                         <li>
                           <!-- TODO 3 -->
-                          <a href="#" class="button">
+                          <a class="button big" target="_blank" rel="noopener noreferrer"
+                          onclick="
+                          event.preventDefault();
+                          openCustomIframe('36009', {listView: true});"
+                          >
                             Widget2
                           </a>
                         </li>
@@ -135,8 +144,12 @@
 											<ul class="actions">
 												<li>
                           <!-- TODO 4 -->
-                          <a href="#" class="button">
-                            Widget3
+                          <a class="button big" target="_blank" rel="noopener noreferrer"
+                          onclick="
+                          event.preventDefault();
+                          openCustomIframe('36009', {listView: true, lightbox: true});"
+                          >
+                            Lightbox
                           </a>
                         </li>
 											</ul>
@@ -179,20 +192,42 @@
                           </a>
                         </li>
                       </ul>
-										</article>
+                    </article>
+                    <article class="smtz-gbooking" data-product-id="36490" data-cats="37488,37489">
+											<!-- TODO widget will be injected automatically here -->
+                    </article>
 										<article>
 											<a href="#" class="image"><img src="images/pic06.jpg" alt="" /></a>
 											<h3>Amet varius aliquam</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											<ul class="actions">
-												<li>
+                      <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla
+                        amet lorem feugiat tempus aliquam.</p>
+                      <ul class="actions">
+                        <li>
                           <!-- TODO 8 -->
-                          <a href="#" class="button">
-                            Widget7
-                          </a>
+                          <!-- Start Smeetz Embed Code -->
+                          <script>
+                            !function (e, t, n, i, p, r, s) {
+                              e[n] || ((p = e[n] = function () {
+                                p.p ? p.p.apply(p, arguments) : p.q.push(arguments);
+                              }).q = [], p.t = 1 * new Date(), p.g = "7510", (r = t.createElement("script")).async = 1,
+                                r.src = "https://dev.tracker.smeetz.com/smeetz-main-widget.js", (s = t.getElementsByTagName("script")[0]).parentNode.insertBefore(r, s));
+                            }(window, document, "_smtz");
+                          </script>
+                          <a class="button" target="_blank" rel="noopener noreferrer" onclick="event.preventDefault(); _smtz('openwidget', 1 * new Date(), {
+                              productId: '36460',
+                              lightbox: true,
+                              listView: false,
+                              
+                              
+                              ocol: '#6A76CB',
+                            });"
+                            style="color: #F2420C;background: #FFFFFF;border: 1px solid #E40B0B;padding: 12px 20px;border-radius: 3px;font-family: Arial, sans-serif;height: 44px;line-height: 44px;cursor: pointer;">Nadine's
+                            button</a>
+                      
+                          <!-- End Smeetz Embed Code -->
                         </li>
 											</ul>
-										</article>
+                    </article>
 									</div>
 								</section>
 
