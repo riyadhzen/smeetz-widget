@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="27px" height="14px" viewBox="0 0 27 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>Arrow-Small-Noir</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="En-Savoir-Plus-Small-Noir" transform="translate(-112.000000, -2.000000)">
+            <g id="Arrow-Small-Noir" transform="translate(112.000000, 3.000000)">
+                <g>
+                    <rect id="Rectangle" fill="#000000" fill-rule="nonzero" x="0" y="5" width="24" height="2"></rect>
+                    <polyline id="Path" stroke="#000000" stroke-width="2" fill-rule="nonzero" transform="translate(21.000000, 6.000000) rotate(-270.000000) translate(-21.000000, -6.000000) " points="15 10 21 2 21 2 27 10"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
